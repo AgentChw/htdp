@@ -25,4 +25,8 @@
     (cons "A" (cons "Flatt" (cons "C" '()))))
   #true)
 
+(contains-flatt? (cons "Flatt" (cons "C" '())))
+(contains-flatt? 
+  (cons "A" (cons "Flatt" (cons "C" '()))))
+
 
